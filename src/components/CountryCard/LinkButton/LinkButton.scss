@@ -1,0 +1,18 @@
+.LinkButton {
+    display: flex;
+    width: 160px;
+    height: 55px;
+    margin-top: 0;
+    padding: 0 30px;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #00fad3;
+    color: #0d1c44;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}

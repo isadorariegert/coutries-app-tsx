@@ -1,0 +1,31 @@
+.CardContainer {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 30px 20px;
+    box-shadow: 0 20px 20px 15px rgb(13 28 68 / 5%);
+
+    img{
+        width: 200px;
+    }
+
+    h2 {
+        color: #0d1c44;
+        font-size: 36px;
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    p {
+        margin-bottom: 15px;
+        color: #0d1c44;
+    }
+
+    @media only screen and (min-width: 600px) {
+
+        flex-direction: column;
+    }
+}

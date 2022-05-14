@@ -1,0 +1,70 @@
+.CardContentContainer {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding: 30px;
+    margin: 10px 20px;
+    // box-shadow: 0 20px 20px 15px rgb(13 28 68 / 5%);
+
+    &_button {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    img{
+        width: 240px;
+        box-shadow: 0 5px 5px 10px rgba(13 28 68 / 5%);
+    }
+
+    h2 {
+        color: #0d1c44;
+        font-size: 36px;
+        margin: 15px 0;
+    }
+
+    &_text {
+        // margin-bottom: 15px;
+        color: #0d1c44;
+        font-size: 18px;
+        // padding: 10px;
+        width: 100%;
+        // border: 2px solid #00fad3;
+
+        &__borders {
+            background-color: #0d1c44;
+            border: 2px solid #00fad3;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-top: 0;
+        }
+    }
+
+    &_links{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        p{
+            border: 1px solid #00fad3;
+            // background-color: #0d1c44;
+            color: #00fad3;
+            font-weight: 500;
+            margin: 10px;
+            padding: 10px;
+
+            &:hover {
+                background-color: #00fad3;
+                color: #0d1c44;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 600px) {
+
+        flex-direction: column;
+    }
+}
